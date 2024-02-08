@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.registrationSection {
+    background: aquamarine;
+    padding: 20px 0;
+}
+.registrationSection .card {
+    background: aqua;
+    box-shadow: 1px 3px 3px #c9c9c9;
+}
+.card-header {
+    text-align: center;
+    background: antiquewhite;
+}
+.card-header span {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.card-footer {
+    background: antiquewhite;
+}
+.loginSection {
+    background: black;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.profile_section {
+    background: aquamarine;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.tableStyle thead, tr, th {
+    border: 1px solid;
+    padding: 5px 15px;
+    text-align: center;
+}
+.tableStyle tbody, tr, td {
+    border: 1px solid;
+    padding: 5px;
+}
